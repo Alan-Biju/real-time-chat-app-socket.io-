@@ -24,7 +24,7 @@ form.addEventListener('submit',(e)=>{
 
 
 msg.addEventListener('keypress',()=>{
-  socket.emit('keydown',"typing");
+  socket.emit('keydown',"typing.......");
 })
 
 socket.on('type',(data)=>{
