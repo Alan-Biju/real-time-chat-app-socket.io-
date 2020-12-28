@@ -23,7 +23,7 @@ form.addEventListener('submit',(e)=>{
 } )
 
 
-msg.addEventListener('keypress',()=>{
+msg.addEventListener('input',()=>{
   socket.emit('keydown',"typing.......");
 })
 
