@@ -187,4 +187,7 @@ a {
 	.chat-sidebar {
 		display: none;
 	}
+	.btn {
+		font-size:10px;
+	}
 }
