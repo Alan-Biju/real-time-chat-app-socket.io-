@@ -17,7 +17,8 @@ io.on('connection',(socket)=>{
     console.log('new user');
 
 socket.on('chatmessage',(data)=>{
-    io.emit('message',data);
+    io.emit('messages',data);
+    
 })
 socket.on('keydown',(data)=>{
     socket.broadcast.emit('type',data);
